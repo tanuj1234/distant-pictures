@@ -20,4 +20,6 @@ Ans.Played around with HTML and added some CSS (Buttons and Polaroid Image Conta
 Try a new node library/package
 Find, install, and try out a node-based library and try to incorporate into your lab.
 Document your successes and failures (totally okay!) for your Slack lab#2 turn-in. This will help the class community figure out cool new tools and capabilities. 
-Ans. Successes: 
+Ans. Successes: I was able to implement the JIMP package which essentially provides image processing capacities. I specifically implemented Greyscale and Quality and Contrast reduction feature from the package.
+
+Failures:I tried the POLAROID-IMAGE package but wasn't able to implement it and therefore used regular CSS to convert the images into polaroids.

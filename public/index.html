@@ -2,16 +2,25 @@
 <html>
     <head>
         <meta charset="utf8"/>
-        <title>Interaction Engine - Hello You!</title>
+        <title>Tanuj's Interaction Engine - Hello You!</title>
         <script src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <body bgcolor="#000">
-        <button onclick="ledON()">LED ON</button>
-        <button onclick="ledOFF()">LED OFF</button>
-        <button onclick="takePicture()">Take a picture</button>
-      </br>
-        <img src="" id= "pictureContainer" alt="WebCam image  made by the webserver">
-        <script src="client.js"></script>
-    </body>
+	<div style="margin: 0 auto; text-align: center;">
+	<h1><center> Peephole </center></h1>
+        <button class = "on" onclick="ledON()">LED ON</button>
+        <button class = "off" onclick="ledOFF()">LED OFF</button>
+        <button class = "picture" onclick="takePicture()">Take a picture</button>
+      </br></br></br>
+    <div style= "display:inline;">    <div class = "polaroid"><img src="" id= "pictureContainer" alt=""><div class="container">
+    <p>ORIGINAL</p>
+  </div></div>
+ 
+ <div class = "polaroid"><img src="" id= "AlteredpictureContainer" alt=""><div class="container">
+    <p>PROCESSED</p>
+  </div></div>      </div>
+ <script src="client.js"></script>
+ </div>  
+ </body>
 </html>

@@ -23,3 +23,6 @@ Document your successes and failures (totally okay!) for your Slack lab#2 turn-i
 Ans. Successes: I was able to implement the JIMP package which essentially provides image processing capacities. I specifically implemented Greyscale and Quality and Contrast reduction feature from the package.
 
 Failures:I tried the POLAROID-IMAGE package but wasn't able to implement it and therefore used regular CSS to convert the images into polaroids.
+
+
+Link to video: https://drive.google.com/file/d/1s1tGLOPJa0RrDYG-MpQpp9JsM2d2oD39/view?usp=sharing
